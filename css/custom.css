@@ -1,0 +1,33 @@
+.cus_diffculty{
+	border: 0;
+	border-radius: 1020px;;
+	padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+}
+
+.cus_easy{
+	background-color: #5cb85c;
+}
+
+.cus_medium{
+	background-color: #f0ad4e;
+}
+
+.cus_hard{
+	background-color: #d9534f;
+}
+
+.cus_array{
+	background-color: black;
+}
+
+.cus_hashtable{
+	background-color: #B87333;
+}
+B87333
