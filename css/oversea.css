@@ -1,0 +1,95 @@
+.padding-0{
+	padding-right:0;
+    padding-left:0;
+}
+
+.oversea-hs-text-mid{
+	position: absolute; 
+	margin-top: -5rem; 
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+.oversea-hover{
+	overflow: hidden;
+}
+
+ img:hover{
+    cursor: pointer;
+    overflow:hidden;
+ }
+  /*Light effect*/
+ .opacity-light img:hover{
+    opacity: 0.75;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+ }
+.oversea-hover img {
+  width: 100%; 
+  height: auto;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.oversea-hover:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.oversea-hover:hover h4{
+	color: gold;
+}
+
+.oversea-hs-text-shadow{
+	padding-top:1rem ; 
+	background:rgba(0,0,0,0.6); 
+	height: 5rem;
+}
+
+.oversea-hover-bg-s1{
+	background-color:#A51C30;
+}
+
+.oversea-hover-bg-s2{
+	background-color:red;
+}
+
+.oversea-hover-bg-s3{
+	background-color:red;
+}
+
+.oversea-hover-bg-s4{
+	background-color:red;
+}
+
+.oversea-hover-bg-blue{
+	background-color: #3992BD;
+}
+
+.oversea-hover-bg-blue:hover, .oversea-hover-bg-s4:hover, .oversea-hover-bg-s3:hover, .oversea-hover-bg-s1:hover, .oversea-hover-bg-s2:hover {
+	background-color: #666666;
+}
+
+.oversea-overlay-red{
+	background:rgba(0,0,0,1); 
+}
+
+img
+{
+  -webkit-transition: all 1s
+}
+
+/* preview the difference */
+img:hover{-webkit-filter:none;}
+
+.oversea-story{
+	/**/
+	background-color: url("../images/o16f.jpg");
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
